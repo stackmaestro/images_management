@@ -2,7 +2,7 @@
 
 require 'date'
 
-def image_manager(s)
+def solution(s)
   validate_input(s)
   photos = s.split("\n")
   grouped_photos = group_photos(photos)
@@ -54,5 +54,3 @@ def group_photos(photos)
   end
   grouped_photos
 end
-
-
